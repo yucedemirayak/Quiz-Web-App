@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="app-container d-flex flex-column mx-auto">
+      <h1 style="display: none;">Quiz Application UI</h1>
+      <section class="app-main-container" id="main-app">
+        <h2>Quiz Results</h2>
+        <div class="results">
+            <span>Your Success Rate :</span>
+            <div class="progress-bar-background">
+                <span class="progress" style="width: 65%">%65</span>
+            </div>
+        </div>
+        <div class="question-section">
+            <div class="question" id="question"><h3>Question 1</h3>
+                <article>Example Question 1</article></div>
+                <div class="answers d-flex flex-column" id="answers">
+                    <button class="correct" id="answer-0" onclick="selectAnswer(this.id)">Correct</button>
+                    <button class="wrong" id="answer-1" onclick="selectAnswer(this.id)">Wrong</button>
+                    <button class="answered" id="answer-2" onclick="selectAnswer(this.id)">Selected</button>
+                    <button class="" id="answer-3" onclick="selectAnswer(this.id)">Not-Selected</button>
+            </div>
+        </div>
+        <div class="question-section" style="padding-top: 50px;">
+            <div class="question" id="question"><h3>Question 1</h3>
+                <article>Example Question 1</article></div>
+                <div class="answers d-flex flex-column" id="answers">
+                    <button class=""></button>
+                    <button class="" id="answer-1" onclick="selectAnswer(this.id)">Wrong</button>
+                    <button class="" id="answer-2" onclick="selectAnswer(this.id)">Selected</button>
+                    <button class="" id="answer-3" onclick="selectAnswer(this.id)">Not-Selected</button>
+            </div>
+        </div>
+
+        <!-- <div class="inner d-flex row">
+          <div class="question-section col-8">
+            <div class="question" id="question"></div>
+            <div class="answers d-flex flex-column" id="answers"></div>
+            <div class="navigator">
+              <button id="prev-btn" onclick="prevQuestion()">Prev</button>
+              <button id="next-btn" onclick="nextQuestion()">Next</button>
+              <button id="finish-btn" onclick="finishTest()" style="display: none;">Finish</button>
+            </div>
+          </div>
+          <div class="optic col-4">
+            <div class="question-help">
+              <span class="">Question
+                <span id="question-number"></span>/<span id="question-qty"></span>
+              </span>
+              <a class="help" href="https://google.com/" target="_blank">Need Help ?</a>
+            </div>
+            <div class="indicators" id="indicators">
+              <!-- <button class="not-answered">1</button>
+              <button class="selected">11</button>
+              <button class="answered">20</button> -->
+            </div>
+          </div>
+        </div> -->
+      </section>
+    </div>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>

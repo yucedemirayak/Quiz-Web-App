@@ -1,0 +1,221 @@
+body {
+    background-color: #3586ff !important;
+    font-family: 'Roboto' !important;
+}
+
+.app-container {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.app-container h1 {
+    color: #FF6565;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    width: 503px;
+    height: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+    margin: 0 !important;
+    align-self: center;
+}
+
+.app-main-container {
+    background-color: white !important;
+    filter: drop-shadow(0px 4px 32px rgba(0, 0, 0, 0.17));
+    border-radius: 12px;
+    margin-top: 54px;
+    padding: 24px;
+}
+
+.app-main-container h2 {
+    text-align: center;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.inner {
+    margin: 20px 0 0 0 !important;
+}
+
+.question-section {
+    padding: 0 20 0 0 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+
+.question h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: left;
+}
+
+.question article {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.question {
+    background: #FFFFFF;
+    border: 2px solid #5685FF;
+    box-sizing: border-box;
+    box-shadow: 0px 6px 16px #E9E9E9;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+.answers {
+    margin-top: 28px;
+}
+
+.answers button {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px #E9E9E9;
+    border-radius: 12px;
+    height: 48px;
+    text-align: left;
+    padding: 11px 36px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+.answers button.answered {
+    background-color: thistle;
+    transition: 0.5s;
+}
+
+.answers button.correct {
+    background-color: blueviolet;
+    border: 1px solid;
+    transition: 0.5s;
+    color: white;
+}
+
+.answers button.wrong {
+    background-color: red;
+    border: 1px solid;
+    transition: 0.5s;
+    color: white;
+    text-decoration: line-through grey 2px;
+}
+
+.navigator {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigator button {
+    width: 106px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+}
+
+.optic {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 16px rgba(223, 223, 223, 0.42);
+    border-radius: 12px;
+    margin: 0;
+    padding: 20px !important;
+    position: relative;
+}
+
+.question-help {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.question-help .help {
+    text-decoration: none;
+    color: black;
+}
+
+.indicators {
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.indicators button {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 8px;
+    
+}
+
+.indicators .not-answered {
+    background: #C4C4C4;
+    
+} 
+
+.indicators .selected {
+    background: #FFAAAF;
+    color: white;
+}
+
+.indicators .answered {
+    background: #AABDFF;
+    color: white;
+}
+
+.results {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    min-width: 800px;
+}
+
+.results span {
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: fit-content;
+    margin-right: 5%;
+}
+
+.progress-bar-background {
+    display: flex;
+    background-color: hsl(244deg 7% 39%);
+    width: 100%;  
+    border-radius: 6px;
+  }
+  
+  .progress {
+    background-color: #ffcb05 !important;  
+    font-size: x-small;   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 !important;
+    height: 100% !important;
+    border-radius: inherit !important;
+  }
+
