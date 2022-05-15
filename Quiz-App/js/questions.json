@@ -1,0 +1,442 @@
+[
+    {
+        "qId": 1,
+        "qPhrase": "There are 30 people in a group. If all shake hands with one another, how many handshakes are possible ?",
+        "qAnswers": [
+            {
+                "text": "870",
+                "isCorrect": false
+            },
+            {
+                "text": "435",
+                "isCorrect": true
+            },
+            {
+                "text": "30",
+                "isCorrect": false
+            },
+            {
+                "text": "29",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 2,
+        "qPhrase": "In Cricket League, in first round every team plays a match with every other team. 9 teams participated in the Cricket league. How many matches were played in the first round ?",
+        "qAnswers": [
+            {
+                "text": "36",
+                "isCorrect": true
+            },
+            {
+                "text": "72",
+                "isCorrect": false
+            },
+            {
+                "text": "9",
+                "isCorrect": false
+            },
+            {
+                "text": "91",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 3,
+        "qPhrase": "How many combinations are possible while selecting four letters from the word ‘SMOKEJACK’ with the condition that ‘J’ must appear in it ?",
+        "qAnswers": [
+            {
+                "text": "81",
+                "isCorrect": false
+            },
+            {
+                "text": "82",
+                "isCorrect": false
+            },
+            {
+                "text": "32",
+                "isCorrect": false
+            },
+            {
+                "text": "41",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "qId": 4,
+        "qPhrase": "In a room there are 2 green chairs, 3 yellow chairs and 4 blue chairs. In how many ways can Raj choose 3 chairs so that at least one yellow chair is included?",
+        "qAnswers": [
+            {
+                "text": "3",
+                "isCorrect": false
+            },
+            {
+                "text": "30",
+                "isCorrect": false
+            },
+            {
+                "text": "64",
+                "isCorrect": true
+            },
+            {
+                "text": "84",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 5,
+        "qPhrase": "On a railway line there are 20 stops. A ticket is needed to travel between any 2 stops. How many different tickets would the government need to prepare to cater to all possibilities?",
+        "qAnswers": [
+            {
+                "text": "760",
+                "isCorrect": false
+            },
+            {
+                "text": "190",
+                "isCorrect": false
+            },
+            {
+                "text": "380",
+                "isCorrect": true
+            },
+            {
+                "text": "72",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 6,
+        "qPhrase": "In Daya’s bag there are 3 books of History, 4 books of Science and 2 books of Maths. In how many ways can Daya arrange the books so that all the books of same subject are together?",
+        "qAnswers": [
+            {
+                "text": "9",
+                "isCorrect": false
+            },
+            {
+                "text": "6",
+                "isCorrect": false
+            },
+            {
+                "text": "8640",
+                "isCorrect": false
+            },
+            {
+                "text": "1728",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "qId": 7,
+        "qPhrase": "A locker in bank has 3 digit lock. Mahesh forgot his password and was trying all possible combinations. He took 6 seconds for each try. The problem was that each digit can be from 0 to 9. How much time will be needed to by Mahesh to try all the combinations?",
+        "qAnswers": [
+            {
+                "text": "90 minutes",
+                "isCorrect": false
+            },
+            {
+                "text": "120 minutes",
+                "isCorrect": false
+            },
+            {
+                "text": "60 minutes",
+                "isCorrect": false
+            },
+            {
+                "text": "100 minutes",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "qId": 8,
+        "qPhrase": "Mayur travels from Mumbai to Jammu in 7 different ways. But he is allowed to return to Mumbai by any way except the one he used earlier. In how many ways can he complete his journey?",
+        "qAnswers": [
+            {
+                "text": "49",
+                "isCorrect": false
+            },
+            {
+                "text": "42",
+                "isCorrect": true
+            },
+            {
+                "text": "48",
+                "isCorrect": false
+            },
+            {
+                "text": "6",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 9,
+        "qPhrase": "Without repetition, using digits 2, 3, 4, 5, 6, 8 and 0, how many numbers can be made whichlie between 500 and 1000?",
+        "qAnswers": [
+            {
+                "text": "70",
+                "isCorrect": false
+            },
+            {
+                "text": "147",
+                "isCorrect": false
+            },
+            {
+                "text": "60",
+                "isCorrect": false
+            },
+            {
+                "text": "90",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "qId": 10,
+        "qPhrase": "A trekking group is to be formed having 6 members. They are to be selected from 3 girls, 4 boys and 5 teachers. In how many ways can the group be formed so that there are 3 teachers and 3 boys or 2 girls and 4 teachers?",
+        "qAnswers": [
+            {
+                "text": "55",
+                "isCorrect": true
+            },
+            {
+                "text": "90",
+                "isCorrect": false
+            },
+            {
+                "text": "27",
+                "isCorrect": false
+            },
+            {
+                "text": "144",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 11,
+        "qPhrase": "If  Suraj doesn’t want three vowels together, then in how many, can he arrange letters of theword 'MARKER'?",
+        "qAnswers": [
+            {
+                "text": "500",
+                "isCorrect": false
+            },
+            {
+                "text": "720",
+                "isCorrect": false
+            },
+            {
+                "text": "240",
+                "isCorrect": true
+            },
+            {
+                "text": "360",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 12,
+        "qPhrase": "A bank has 6 digit account number with no repetition of digits within a account number. Thefirst and last digit of the account numbers is fixed to be 4 and 7. How many such account numbers are possible?",
+        "qAnswers": [
+            {
+                "text": "10080",
+                "isCorrect": false
+            },
+            {
+                "text": "5040",
+                "isCorrect": false
+            },
+            {
+                "text": "890",
+                "isCorrect": false
+            },
+            {
+                "text": "1680",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "qId": 13,
+        "qPhrase": "In a class, there are 15 students. During a Christmas party all of them shook hands with eachother only once. How many handshakes took place in the class?",
+        "qAnswers": [
+            {
+                "text": "120",
+                "isCorrect": false
+            },
+            {
+                "text": "210",
+                "isCorrect": false
+            },
+            {
+                "text": "105",
+                "isCorrect": true
+            },
+            {
+                "text": "55",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 14,
+        "qPhrase": "The name of the horizontal line in the cartesian plane which determines the position of a point is called:",
+        "qAnswers": [
+            {
+                "text": "Origin",
+                "isCorrect": false
+            },
+            {
+                "text": "X-axis",
+                "isCorrect": true
+            },
+            {
+                "text": "Y-axis",
+                "isCorrect": false
+            },
+            {
+                "text": "Quadrants",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 15,
+        "qPhrase": "The name of the vertical line in the cartesian plane which determines the position of a point is called:",
+        "qAnswers": [
+            {
+                "text": "Origin",
+                "isCorrect": false
+            },
+            {
+                "text": "X-axis",
+                "isCorrect": false
+            },
+            {
+                "text": "Y-axis",
+                "isCorrect": true
+            },
+            {
+                "text": "Quadrants",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 16,
+        "qPhrase": "The section formed by horizontal and vertical lines determining the position of the point in acartesian plane is called:",
+        "qAnswers": [
+            {
+                "text": "Origin",
+                "isCorrect": false
+            },
+            {
+                "text": "X-axis",
+                "isCorrect": false
+            },
+            {
+                "text": "Y-axis",
+                "isCorrect": false
+            },
+            {
+                "text": "Quadrants",
+                "isCorrect": true
+            }
+        ]
+    },
+    {
+        "qId": 17,
+        "qPhrase": "Points (1, 2), (-2, -3), (2, -3);",
+        "qAnswers": [
+            {
+                "text": "First quadrant",
+                "isCorrect": false
+            },
+            {
+                "text": "Do not lie in the same quadrant",
+                "isCorrect": true
+            },
+            {
+                "text": "Third quadrant",
+                "isCorrect": false
+            },
+            {
+                "text": "Fourth quadrant",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 18,
+        "qPhrase": "In ? ABC, right-angled at B, AB = 24 cm, BC = 7 cm. The value of tan C is:",
+        "qAnswers": [
+            {
+                "text": "12/7",
+                "isCorrect": false
+            },
+            {
+                "text": "24/7",
+                "isCorrect": true
+            },
+            {
+                "text": "20/7",
+                "isCorrect": false
+            },
+            {
+                "text": "7/24",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 19,
+        "qPhrase": " (Sin 30°+cos 60°)-(sin 60° + cos 30°) is equal to:",
+        "qAnswers": [
+            {
+                "text": "0",
+                "isCorrect": false
+            },
+            {
+                "text": "1+2√3",
+                "isCorrect": false
+            },
+            {
+                "text": "1-√3",
+                "isCorrect": true
+            },
+            {
+                "text": "1+√3",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "qId": 20,
+        "qPhrase": "The value of tan 60°/cot 30° is equal to:",
+        "qAnswers": [
+            {
+                "text": "0",
+                "isCorrect": false
+            },
+            {
+                "text": "1",
+                "isCorrect": true
+            },
+            {
+                "text": "2",
+                "isCorrect": false
+            },
+            {
+                "text": "3",
+                "isCorrect": false
+            }
+        ]
+    }
+]
